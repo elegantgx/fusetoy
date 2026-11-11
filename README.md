@@ -1,3 +1,3 @@
-# fusetoy
+# Fusetoy
 
 开发中
