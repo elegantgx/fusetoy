@@ -3,8 +3,6 @@ project(fusetoy C)
 
 set(CMAKE_C_STANDARD 23)
 
-add_compile_options(-Wall -Wextra)
-
 find_package(PkgConfig REQUIRED)
 pkg_check_modules(FUSE3 REQUIRED IMPORTED_TARGET fuse3)
 
